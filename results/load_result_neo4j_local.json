@@ -1,0 +1,11 @@
+{
+  "platform": "Neo4j-Local",
+  "node_count": 60454,
+  "node_load_time_sec": 7.65,
+  "nodes_per_sec": 7901.1,
+  "relationship_count": 120000,
+  "relationship_load_time_sec": 8.76,
+  "relationships_per_sec": 13704.2,
+  "verified_node_count": 60454,
+  "verified_relationship_count": 120000
+}
