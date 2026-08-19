@@ -1,0 +1,11 @@
+{
+  "platform": "CognoDB",
+  "node_count": 60454,
+  "node_load_time_sec": 11.65,
+  "nodes_per_sec": 5188.0,
+  "relationship_count": 120000,
+  "relationship_load_time_sec": 19.56,
+  "relationships_per_sec": 6134.3,
+  "verified_node_count": 60454,
+  "verified_relationship_count": 120000
+}
