@@ -1,0 +1,11 @@
+{
+  "platform": "ArangoDB",
+  "node_count": 60454,
+  "node_load_time_sec": 32.9,
+  "nodes_per_sec": 1837.8,
+  "relationship_count": 120000,
+  "relationship_load_time_sec": 63.05,
+  "relationships_per_sec": 1903.4,
+  "verified_node_count": 60454,
+  "verified_relationship_count": 120000
+}
