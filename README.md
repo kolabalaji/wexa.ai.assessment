@@ -105,8 +105,8 @@ wexa.ai.assessment/
 * [x] Trim dataset
 * [x] Generate `nodes.csv`
 * [x] Generate `edges.csv`
-* [ ] Load dataset into all platforms
-* [ ] Run benchmark queries
-* [ ] Compare performance
-* [ ] Document results
+* [x] Load dataset into all platforms
+* [x] Run benchmark queries
+* [x] Compare performance
+* [x] Document results
 
