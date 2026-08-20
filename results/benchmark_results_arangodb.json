@@ -1,0 +1,46 @@
+{
+  "platform": "ArangoDB",
+  "traversals": {
+    "1_hop": {
+      "p50_ms": 268.59,
+      "p95_ms": 324.48,
+      "iterations": 100
+    },
+    "2_hop": {
+      "p50_ms": 263.78,
+      "p95_ms": 325.43,
+      "iterations": 100
+    },
+    "3_hop": {
+      "p50_ms": 261.21,
+      "p95_ms": 313.13,
+      "iterations": 100
+    }
+  },
+  "point_lookup": {
+    "p50_ms": 261.64,
+    "p95_ms": 294.18,
+    "iterations": 100,
+    "method": "direct _key document lookup"
+  },
+  "indexed_lookup": {
+    "p50_ms": 262.4,
+    "p95_ms": 304.93,
+    "iterations": 100,
+    "indexed": true,
+    "indexed_field": "person_id (persistent index)"
+  },
+  "aggregation": {
+    "p50_ms": 368.27,
+    "p95_ms": 611.15,
+    "iterations": 100,
+    "query_description": "Top-100 nodes by out-degree (group-by style aggregation)"
+  },
+  "mixed_workload": {
+    "concurrent_clients": 10,
+    "duration_sec": 30,
+    "read_write_mix": "80/20",
+    "total_operations": 1077,
+    "queries_per_sec": 35.9
+  }
+}
